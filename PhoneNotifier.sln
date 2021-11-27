@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNotifier.Android", "PhoneNotifier\PhoneNotifier.Android\PhoneNotifier.Android.csproj", "{0CF056D9-0CF5-4056-8FDE-FBB605A563ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneNotifier", "PhoneNotifier\PhoneNotifier\PhoneNotifier.csproj", "{595F62ED-5659-4EF3-A44C-E4176A30BACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNotifier.DesktopApp", "PhoneNotifier.DesktopApp\PhoneNotifier.DesktopApp.csproj", "{728EEB93-6DDE-4F14-BFBA-70854BFBC026}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CF056D9-0CF5-4056-8FDE-FBB605A563ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF056D9-0CF5-4056-8FDE-FBB605A563ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF056D9-0CF5-4056-8FDE-FBB605A563ED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0CF056D9-0CF5-4056-8FDE-FBB605A563ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF056D9-0CF5-4056-8FDE-FBB605A563ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF056D9-0CF5-4056-8FDE-FBB605A563ED}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{595F62ED-5659-4EF3-A44C-E4176A30BACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595F62ED-5659-4EF3-A44C-E4176A30BACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595F62ED-5659-4EF3-A44C-E4176A30BACD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{595F62ED-5659-4EF3-A44C-E4176A30BACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595F62ED-5659-4EF3-A44C-E4176A30BACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595F62ED-5659-4EF3-A44C-E4176A30BACD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{728EEB93-6DDE-4F14-BFBA-70854BFBC026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728EEB93-6DDE-4F14-BFBA-70854BFBC026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728EEB93-6DDE-4F14-BFBA-70854BFBC026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728EEB93-6DDE-4F14-BFBA-70854BFBC026}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {677A484F-351A-4FFD-ACCC-146DF7423291}
+	EndGlobalSection
+EndGlobal

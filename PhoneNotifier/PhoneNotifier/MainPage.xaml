@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PhoneNotifier.MainPage">
+
+    <Grid>
+        <StackLayout Padding="5" VerticalOptions="Start" Orientation="Horizontal" HeightRequest="50">
+            <Label Text="IP Address" FontSize="16" VerticalOptions="Center"/>
+            <Entry x:Name="IpAddressBox" Text="192.168.1.200" FontSize="16" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        <Grid Margin="0,55,0,0" HeightRequest="60" VerticalOptions="Start" HorizontalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Clicked="ConnectToServer_Click" Text="Connect to Server" Grid.Column="0"/>
+            <Button Clicked="ConnectToClient_Click" Text="Connect to Client" Grid.Column="1"/>
+        </Grid>
+        <Grid Margin="0,120,0,0" VerticalOptions="FillAndExpand">
+            <ListView ItemsSource="{Binding TheMSGList}" x:Name="MessageList" Margin="0,0,0,90" BackgroundColor="#2A2A2A"/>
+            <Grid VerticalOptions="End" HeightRequest="80">
+                <Button Clicked="SendMessage_Click" HorizontalOptions="Start" WidthRequest="150" Text="Send Message"/>
+                <Entry x:Name="InputMessageBox" Text="Hello there xd" Margin="160,0,0,0"/>
+            </Grid>
+        </Grid>
+    </Grid>
+
+</ContentPage>
